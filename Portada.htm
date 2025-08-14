@@ -1,120 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <title>Portada de la solución de Informática</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <title>Portada de la soluciÃ³n de InformÃ¡tica</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    .label {
+      font-weight: bold;
+    }
+    a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .instructions {
+      background: #eee;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Portada de la soluciÃ³n de InformÃ¡tica</h1>
 
-<h2 style="text-align:center">Portada de la solución de Informática</h2>
+    <div class="row"><span class="label">Nombre del alumno:</span> Ignacio Bel Iskhakava</div>
+    <div class="row"><span class="label">CÃ³digo del colegio:</span> 006557</div>
+    <div class="row"><span class="label">TÃ­tulo de la soluciÃ³n:</span> Foodmatch</div>
+    <div class="row"><span class="label">NÃºmero de convocatoria:</span> 001</div>
+    <div class="row"><span class="label">Nombre del usuario:</span> Solange Paulina Bel</div>
 
-<table>
-  <tr>
-    <td width="320" colspan="2"><p><b>Nombre del alumno:</b> Ignacio Bel Iskhakava</p></td>
-    <td width="400"><p><b>Código del colegio:&nbsp;&nbsp;&nbsp;</b><u>006557</u></p></td>
-    <td width="200"></td>
-  </tr>
+    <div class="row"><span class="label">Enlace al producto:</span> <a href="./Producto" target="_blank">Abrir Producto</a></div>
 
-  <tr>
-    <td width="320" colspan="2"><p><b>Título de la solución:</b> Foodmatch</p></td>
-    <td width="400"><p><b>Número de convocatoria del alumno:&nbsp;&nbsp;&nbsp;</b><u>001</u></p></td>
-    <td width="200"></td>
-  </tr>
+    <div class="instructions">
+      <p><b>Indicaciones para ejecutar Foodmatch:</b></p>
+      <ol>
+        <li>Inicie XAMPP y active MySQL.</li>
+        <li>La base de datos ya estÃ¡ configurada.</li>
+        <li>Abra la carpeta <b>Producto</b>.</li>
+        <li>Ejecute <b>InicioDeSesion.java</b> desde Visual Studio Code.</li>
+      </ol>
+    </div>
 
-  <tr>
-    <td width="320" colspan="2"><p><b>Nombre del usuario:</b> Solange Paulina Bel</p></td>
-    <td width="400"></td>
-    <td width="200"></td>
-  </tr>
+    <h3>DocumentaciÃ³n</h3>
+    <ul>
+      <li><a href="./DocumentaciÃ³n/Crit_A_PlanificaciÃ³n.pdf" target="_blank">PlanificaciÃ³n</a></li>
+      <li><a href="./DocumentaciÃ³n/Crit_B_Registro_de_tareas.pdf" target="_blank">Registro de tareas</a></li>
+      <li><a href="./DocumentaciÃ³n/Crit_B_DiseÃ±o.pdf" target="_blank">DiseÃ±o</a></li>
+      <li><a href="./DocumentaciÃ³n/Crit_C_Desarrollo.pdf" target="_blank">Desarrollo</a></li>
+      <li><a href="./DocumentaciÃ³n/Crit_D.avi" target="_blank">Video del producto</a></li>
+      <li><a href="./DocumentaciÃ³n/Crit_E_EvaluaciÃ³n.pdf" target="_blank">EvaluaciÃ³n</a></li>
+      <li><a href="./DocumentaciÃ³n/ApÃ©ndice.pdf" target="_blank">ApÃ©ndice</a></li>
+      <li><a href="./DocumentaciÃ³n/Comentarios_Usuario.pdf" target="_blank">Comentarios del usuario</a></li>
+    </ul>
 
-  <tr>
-    <td width="320" height="50" colspan="2">
-      <p><b>Enlace a Producto:</b> <a href="Producto" target="_blank">Producto</a></p>
-    </td>
-    <td width="400"></td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" height="50" colspan="2" valign="top">
-      <p><b>Indicaciones para acceder al producto o cualquier otra información adicional</b></p>
-    </td>
-    <td width="400" height="70" style="background:#ddd" valign="top">
-      <p>
-        Para ejecutar la aplicación Foodmatch:<br>
-        1. Inicie XAMPP y active MySQL.<br>
-        2. La base de datos ya está configurada.<br>
-        3. Abra la carpeta <strong>Producto</strong>.<br>
-        4. Ejecute <strong>InicioDeSesion.java</strong> desde Visual Studio Code.
-      </p>
-    </td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" colspan="2"><p><i>Los enlaces a la documentación son los siguientes:</i></p></td>
-    <td width="400"></td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" colspan="2"><p><b>Planificación</b></p></td>
-    <td width="400"><a href="Crit_A_Planificación.pdf" target="_blank">Planificación</a></td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" colspan="2"><p><b>Diseño</b></p></td>
-    <td width="400">
-      <a href="Crit_B_Registro_de_tareas.pdf" target="_blank">Registro de tareas</a> (utilice el formulario)
-    </td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" colspan="2"></td>
-    <td width="400"><a href="Crit_B_Diseño.pdf" target="_blank">Diseño</a></td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" colspan="2"><p><b>Desarrollo</b></p></td>
-    <td width="400"><a href="Crit_C_Desarrollo.pdf" target="_blank">Desarrollo</a></td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" colspan="2"><p><b>Funcionalidad (se pueden añadir videos adicionales)</b></p></td>
-    <td width="400"><a href="Crit_D.avi" target="_blank">Vídeo del producto</a></td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" colspan="2"><p><b>Evaluación</b></p></td>
-    <td width="400"><a href="Crit_E_Evaluación.pdf" target="_blank">Evaluación</a></td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" colspan="2"><p><b>Apéndice/apéndices</b></p></td>
-    <td width="400"><a href="Apéndice.pdf" target="_blank">Apéndice</a></td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" colspan="2"><p><b>Comentarios del usuario</b></p></td>
-    <td width="400"><a href="Comentarios_Usuario.pdf" target="_blank">Comentarios del usuario</a></td>
-    <td width="200"></td>
-  </tr>
-
-  <tr>
-    <td width="320" colspan="2" height="70"><p><b>RECUENTO DE PALABRAS</b></p></td>
-    <td width="400"><p><b>1970</b></p></td>
-    <td width="200"></td>
-  </tr>
-
-</table>
-
+    <div class="row"><span class="label">Recuento de palabras:</span> 1970</div>
+  </div>
 </body>
 </html>
+
