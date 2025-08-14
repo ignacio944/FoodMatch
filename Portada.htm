@@ -4,84 +4,49 @@
   <meta charset="UTF-8">
   <title>Portada de la solución de Informática</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1 {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .row {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 15px;
-    }
-    .label {
-      font-weight: bold;
-    }
-    a {
-      color: #0056b3;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .instructions {
-      background: #eee;
-      padding: 15px;
-      border-radius: 5px;
-      margin-top: 20px;
-      font-size: 14px;
-    }
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; color: #333; }
+    h1 { text-align: center; margin-bottom: 30px; }
+    .info { margin-bottom: 20px; }
+    .info strong { display: inline-block; width: 240px; }
+    .note { background: #eee; padding: 12px; border-radius: 8px; margin: 16px 0; }
+    ul { list-style: none; padding: 0; }
+    ul li { margin: 8px 0; }
+    a { color: #0056b3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Portada de la solución de Informática</h1>
+  <h1>Portada de la solución de Informática</h1>
 
-    <div class="row"><span class="label">Nombre del alumno:</span> Ignacio Bel Iskhakava</div>
-    <div class="row"><span class="label">Código del colegio:</span> 006557</div>
-    <div class="row"><span class="label">Título de la solución:</span> Foodmatch</div>
-    <div class="row"><span class="label">Número de convocatoria:</span> 001</div>
-    <div class="row"><span class="label">Nombre del usuario:</span> Solange Paulina Bel</div>
+  <div class="info"><strong>Nombre del alumno:</strong> Ignacio Bel Iskhakava</div>
+  <div class="info"><strong>Código del colegio:</strong> 006557</div>
+  <div class="info"><strong>Título de la solución:</strong> Foodmatch</div>
+  <div class="info"><strong>N.º convocatoria del alumno:</strong> 001</div>
+  <div class="info"><strong>Nombre del usuario:</strong> Solange Paulina Bel</div>
+  <div class="info"><strong>Enlace a Producto:</strong> <a href="./Producto" target="_blank">Producto</a></div>
 
-    <div class="row"><span class="label">Enlace al producto:</span> <a href="./Producto" target="_blank">Abrir Producto</a></div>
-
-    <div class="instructions">
-      <p><b>Indicaciones para ejecutar Foodmatch:</b></p>
-      <ol>
-        <li>Inicie XAMPP y active MySQL.</li>
-        <li>La base de datos ya está configurada.</li>
-        <li>Abra la carpeta <b>Producto</b>.</li>
-        <li>Ejecute <b>InicioDeSesion.java</b> desde Visual Studio Code.</li>
-      </ol>
-    </div>
-
-    <h3>Documentación</h3>
-    <ul>
-      <li><a href="./Documentación/Crit_A_Planificación.pdf" target="_blank">Planificación</a></li>
-      <li><a href="./Documentación/Crit_B_Registro_de_tareas.pdf" target="_blank">Registro de tareas</a></li>
-      <li><a href="./Documentación/Crit_B_Diseño.pdf" target="_blank">Diseño</a></li>
-      <li><a href="./Documentación/Crit_C_Desarrollo.pdf" target="_blank">Desarrollo</a></li>
-      <li><a href="./Documentación/Crit_D.avi" target="_blank">Video del producto</a></li>
-      <li><a href="./Documentación/Crit_E_Evaluación.pdf" target="_blank">Evaluación</a></li>
-      <li><a href="./Documentación/Apéndice.pdf" target="_blank">Apéndice</a></li>
-      <li><a href="./Documentación/Comentarios_Usuario.pdf" target="_blank">Comentarios del usuario</a></li>
-    </ul>
-
-    <div class="row"><span class="label">Recuento de palabras:</span> 1970</div>
+  <div class="note">
+    <p><strong>Indicaciones para ejecutar Foodmatch:</strong></p>
+    <ol>
+      <li>Inicie XAMPP y active MySQL.</li>
+      <li>La base de datos ya está configurada.</li>
+      <li>Abra la carpeta <b>Producto</b>.</li>
+      <li>Ejecute <b>InicioDeSesion.java</b> desde Visual Studio Code.</li>
+    </ol>
   </div>
+
+  <h3>Documentación</h3>
+  <ul>
+    <li><a href="https://github.com/ignacio944/FoodMatch/raw/main/Documentación/Crit_A_Planificación.pdf" target="_blank">Planificación (Criterio A)</a></li>
+    <li><a href="https://github.com/ignacio944/FoodMatch/raw/main/Documentación/Crit_B_Registro_de_tareas.pdf" target="_blank">Registro de tareas</a></li>
+    <li><a href="https://github.com/ignacio944/FoodMatch/raw/main/Documentación/Crit_B_Diseño.pdf" target="_blank">Diseño</a></li>
+    <li><a href="https://github.com/ignacio944/FoodMatch/raw/main/Documentación/Crit_C_Desarrollo.pdf" target="_blank">Desarrollo</a></li>
+    <li><a href="https://github.com/ignacio944/FoodMatch/raw/main/Documentación/Crit_D.avi" target="_blank">Vídeo del producto (Criterio D)</a></li>
+    <li><a href="https://github.com/ignacio944/FoodMatch/raw/main/Documentación/Crit_E_Evaluación.pdf" target="_blank">Evaluación</a></li>
+    <li><a href="https://github.com/ignacio944/FoodMatch/raw/main/Documentación/Apéndice.pdf" target="_blank">Apéndice</a></li>
+    <li><a href="https://github.com/ignacio944/FoodMatch/raw/main/Documentación/Comentarios_Usuario.pdf" target="_blank">Comentarios del usuario</a></li>
+  </ul>
+
+  <p><strong>Recuento de palabras:</strong> 1970</p>
 </body>
 </html>
-
